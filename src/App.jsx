@@ -11,7 +11,9 @@ setCount(count=>count+1)
   })
   return (
     <>
-<div> You have logged in since {count} seconds. </div>
+<div className='App'> 
+  <h2> You have logged in since <span>{count}</span> seconds.</h2>
+  </div>
     </>
   )
 }
